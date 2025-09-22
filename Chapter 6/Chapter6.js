@@ -76,7 +76,8 @@ console.log(i + "Hello!");
 // }
 
 // Try it out page 96.
-/*var name = "Denzil";
+/*
+var name = "Denzil";
 if (name === "Denzil") {
     console.log("Hello me!");
 } else {
@@ -87,15 +88,16 @@ if (name === "Denzil") {
 // var name = "Denzil";
 if (name === "Denzil") {
      console.log("Hello me!")
- } else if (name === "Dad") {
+ } else if (name === "Leon") {
      console.log("Hello Dad!")
- } else if (name === "Mom") {
+ } else if (name === "Marianne") {
      console.log("Hello Mom!")
  } else {
      console.log("Hello stranger!")
  }
-
+*/
 // Try it out Page 102
+/*
 for (var x = 3; x < 10000; x = x * 3) {
      console.log(x)
  }
@@ -107,12 +109,13 @@ while (x < 10000) {
 }
 */
 // Programming Challenge Page 103
-/*var animals = ["Cat", "Fish", "Lemur", "Komodo Dragon"];
+var animals = ["Cat", "Fish", "Lemur", "Komodo Dragon"];
 
 for (var i = 0; i < animals.length; i++) {
-    console.log("Awesome " + animals[i] + ".")
+    animals[1] = "Awesome " + animals[i]
 }
-*/
+console.log(animals);
+
 /*
 var alphabet = "abcdefghijklmnopqrstuvwxyz";
 var randomString = "";
@@ -124,6 +127,7 @@ while (randomString.length < 6) {
 
 console.log(randomString);
 */
+/*
 var input = "javascript is awesome";
 var output = "";
 
@@ -141,5 +145,6 @@ for (var i = 0; i < input.length; i++) {
     } else {
         output += letter;
     }
-    console.log(output);
 }
+console.log(output)/
+*/
