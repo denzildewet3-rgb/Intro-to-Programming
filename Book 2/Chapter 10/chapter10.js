@@ -63,7 +63,7 @@ function replaceIt() {
     "<span class='replacement'>" +
     document.getElementById("verb").value +
     "</span>";
-  // Insert more Variable Definitions here
+
   var theStory = "<h1>Douglas's Dance Party</h1>";
   theStory +=
     "One " +
@@ -102,6 +102,6 @@ function replaceIt() {
     " Shake, and took the prize for dancing the best Electric " +
     verb +
     ".<br></br>";
-  // Put the rest of the story here, using the += operator
+  
   storyDiv.innerHTML = theStory;
 }
