@@ -23,7 +23,7 @@
 // alert(myFriends[randomFriend]);
 
 // Weather App
-var days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+var days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 var weather = [
   "Sunny",
   "Partly Sunny",
@@ -36,7 +36,7 @@ var weather = [
   ];
 
 minTemp = 0;
-maxTemp = 100;
+maxTemp = 101;
 
 function generateWeather() {
   for (var i = 0; i < days.length; i++) {
@@ -44,7 +44,7 @@ function generateWeather() {
     var tempToday = Math.floor(Math.random() * (maxTemp - minTemp) + minTemp);
     document.getElementById("5DayWeather").innerHTML +=
       "<div id='" + days[i] + "' class='" + weatherToday + "'><b>Forecast for " + days[i] + 
-      ":</b><br><br>" + weatherToday + " and " + tempToday + " degrees.</div>";
+      ":</b><br><br>" + weatherToday + " and " + tempToday + " degrees F.</div>";
   }
 }
 
