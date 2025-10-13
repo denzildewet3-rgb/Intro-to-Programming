@@ -3,6 +3,8 @@
 // Make the number random
 var secret =  Math.floor(Math.random() * 20) + 1;
 
+console.log(secret)
+
 let answer = prompt("Please guess the secret number (1-20)");
 var guess = parseInt(answer);
 
@@ -26,6 +28,8 @@ while (answer !== secret) {
     alert("Incorrect, too high");
   }
 answer = parseInt(prompt("Please guess the secret number (1-20)"));
+
 }
 
 alert("Correct Guess!");
+
